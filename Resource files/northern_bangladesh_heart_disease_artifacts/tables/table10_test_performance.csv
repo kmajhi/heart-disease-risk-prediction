@@ -1,0 +1,6 @@
+,Accuracy,Balanced accuracy,Sensitivity (recall),Specificity,PPV (precision),NPV,F1,ROC-AUC,Brier score
+Random Forest,0.9517,0.9534,0.9402,0.9667,0.9735,0.9255,0.9565,0.9916,0.0455
+Support Vector Machine,0.9517,0.9534,0.9402,0.9667,0.9735,0.9255,0.9565,0.991,0.0348
+Logistic Regression,0.9372,0.9419,0.906,0.9778,0.9815,0.8889,0.9422,0.9848,0.0466
+Decision Tree,0.8841,0.8821,0.8974,0.8667,0.8974,0.8667,0.8974,0.9594,0.0706
+Majority-class baseline,0.5652,0.5,1.0,0.0,0.5652,,0.7222,0.5,0.4348

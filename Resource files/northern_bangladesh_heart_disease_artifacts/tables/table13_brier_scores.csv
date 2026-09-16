@@ -1,0 +1,5 @@
+,Brier score
+Support Vector Machine,0.0348
+Random Forest,0.0455
+Logistic Regression,0.0466
+Decision Tree,0.0706

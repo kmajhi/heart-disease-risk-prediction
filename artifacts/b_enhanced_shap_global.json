@@ -1,0 +1,54 @@
+[
+  {
+    "feature": "LDL(mg/dL)",
+    "mean_abs_shap": 1.3423
+  },
+  {
+    "feature": "Triglycerides(mg/dL)",
+    "mean_abs_shap": 0.8293
+  },
+  {
+    "feature": "Total_Cholesterol(mg/dL)",
+    "mean_abs_shap": 0.7379
+  },
+  {
+    "feature": "RBS(mmol/L)",
+    "mean_abs_shap": 0.5827
+  },
+  {
+    "feature": "Age",
+    "mean_abs_shap": 0.5196
+  },
+  {
+    "feature": "BP(mmHg)",
+    "mean_abs_shap": 0.4155
+  },
+  {
+    "feature": "H/O ChestPain",
+    "mean_abs_shap": 0.3876
+  },
+  {
+    "feature": "Hypertension",
+    "mean_abs_shap": 0.3638
+  },
+  {
+    "feature": "Weight (kg)",
+    "mean_abs_shap": 0.2771
+  },
+  {
+    "feature": "Diabetes",
+    "mean_abs_shap": 0.1888
+  },
+  {
+    "feature": "Height (cm)",
+    "mean_abs_shap": 0.072
+  },
+  {
+    "feature": "Sex",
+    "mean_abs_shap": 0.0615
+  },
+  {
+    "feature": "Family H/O",
+    "mean_abs_shap": 0.0468
+  }
+]

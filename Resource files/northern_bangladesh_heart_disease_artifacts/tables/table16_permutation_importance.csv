@@ -1,0 +1,25 @@
+Variable,Mean AUC decrease,SD
+Troponin-I (ng/mL),0.02949,0.00643
+LDL cholesterol (mg/dL),0.02132,0.00401
+Haemoglobin (g/dL),0.01009,0.00341
+Triglycerides (mg/dL),0.00603,0.00266
+Creatinine (mg/dL),0.0057,0.00315
+Random blood sugar (mmol/L),0.00386,0.00313
+History of chest pain,0.00364,0.00192
+Blood pressure (mmHg),0.00332,0.00096
+Total cholesterol (mg/dL),0.00294,0.00152
+Sodium (mmol/L),0.00202,0.00084
+Diabetes mellitus,0.00154,0.00106
+Family history of CVD,0.00152,0.00059
+Age (years),0.00072,0.00116
+Body mass index (kg/m2),0.00058,0.0006
+Hypertension,0.00053,0.00058
+Maximum heart rate (bpm),0.00043,0.00106
+Platelet count (/uL),0.00042,0.00019
+Chloride (mmol/L),0.00041,0.00042
+HDL cholesterol (mg/dL),0.0003,0.0004
+Weight (kg),0.00029,0.00056
+Troponin-I above assay range,0.00019,0.00017
+Height (cm),0.00012,0.00026
+Potassium (mmol/L),0.00011,0.00036
+Sex,9e-05,0.00013

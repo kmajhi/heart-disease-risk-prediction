@@ -1,0 +1,19 @@
+Variable,Observed min,Observed max,Screen low,Screen high,Outside screen
+Age (years),18.0,97.0,18.0,120.0,0
+Height (cm),141.0,186.0,100.0,220.0,0
+Weight (kg),36.0,101.0,20.0,250.0,0
+Body mass index (kg/m2),13.55,43.5,10.0,70.0,0
+Total cholesterol (mg/dL),120.0,294.0,50.0,600.0,0
+Blood pressure (mmHg),70.0,220.0,40.0,300.0,0
+Random blood sugar (mmol/L),3.16,31.6,1.0,50.0,0
+HDL cholesterol (mg/dL),20.0,83.0,5.0,150.0,0
+LDL cholesterol (mg/dL),48.0,226.0,10.0,400.0,0
+Triglycerides (mg/dL),50.0,449.0,10.0,2000.0,0
+Maximum heart rate (bpm),122.4,195.4,40.0,230.0,0
+Haemoglobin (g/dL),2.6,17.6,3.0,22.0,1
+Creatinine (mg/dL),0.4,9.5,0.1,20.0,0
+Platelet count (/uL),100000.0,577000.0,5000.0,1500000.0,0
+Sodium (mmol/L),112.5,149.4,100.0,180.0,0
+Potassium (mmol/L),2.3,6.9,1.5,9.0,0
+Chloride (mmol/L),78.0,131.1,70.0,140.0,0
+Troponin-I (ng/mL),0.002,65.86,0.0,100.0,0

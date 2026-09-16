@@ -1,0 +1,4 @@
+Comparison,AUC difference,95% CI,z,p-value,Distinguishable
+Random Forest vs Support Vector Machine,0.0105,"[0.0046, 0.0165]",3.4595,0.0005,Yes
+Random Forest vs Logistic Regression,0.0126,"[0.0059, 0.0193]",3.697,0.0002,Yes
+Random Forest vs Decision Tree,0.0371,"[0.0250, 0.0492]",5.992,0.0,Yes

@@ -1,0 +1,38 @@
+[
+  {
+    "feature": "Age",
+    "mean_abs_shap": 0.923
+  },
+  {
+    "feature": "H/O ChestPain",
+    "mean_abs_shap": 0.7997
+  },
+  {
+    "feature": "Weight (kg)",
+    "mean_abs_shap": 0.5932
+  },
+  {
+    "feature": "Hypertension",
+    "mean_abs_shap": 0.5042
+  },
+  {
+    "feature": "BP(mmHg)",
+    "mean_abs_shap": 0.4765
+  },
+  {
+    "feature": "Diabetes",
+    "mean_abs_shap": 0.353
+  },
+  {
+    "feature": "Family H/O",
+    "mean_abs_shap": 0.3234
+  },
+  {
+    "feature": "Height (cm)",
+    "mean_abs_shap": 0.2738
+  },
+  {
+    "feature": "Sex",
+    "mean_abs_shap": 0.0999
+  }
+]

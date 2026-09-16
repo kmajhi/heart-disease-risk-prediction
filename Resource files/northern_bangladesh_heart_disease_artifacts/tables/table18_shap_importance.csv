@@ -1,0 +1,46 @@
+Variable,Mean |SHAP|
+LDL cholesterol (mg/dL),0.09478
+Troponin-I (ng/mL),0.07272
+Triglycerides (mg/dL),0.05873
+Haemoglobin (g/dL),0.05418
+Creatinine (mg/dL),0.05241
+Random blood sugar (mmol/L),0.04837
+Total cholesterol (mg/dL),0.04431
+History of chest pain,0.03048
+Age (years),0.026
+Maximum heart rate (bpm),0.02145
+Blood pressure (mmHg),0.01221
+Diabetes mellitus,0.01129
+Family history of CVD,0.0107
+Body mass index (kg/m2),0.01061
+Sodium (mmol/L),0.01058
+Hypertension,0.00765
+Weight (kg),0.00723
+HDL cholesterol (mg/dL),0.00567
+Height (cm),0.00382
+Chloride (mmol/L),0.00353
+Troponin-I (ng/mL) [not recorded],0.0026
+Platelet count (/uL),0.00257
+Potassium (mmol/L),0.00238
+Creatinine (mg/dL) [not recorded],0.00176
+Sex = M,0.00158
+Sex = F,0.00122
+Troponin-I above assay range,0.00095
+Random blood sugar (mmol/L) [not recorded],0.00095
+Chloride (mmol/L) [not recorded],0.00088
+Haemoglobin (g/dL) [not recorded],0.00061
+Hypertension [not recorded],0.00048
+Platelet count (/uL) [not recorded],0.00048
+HDL cholesterol (mg/dL) [not recorded],0.00043
+Potassium (mmol/L) [not recorded],0.00041
+Sodium (mmol/L) [not recorded],0.0004
+Total cholesterol (mg/dL) [not recorded],0.00039
+Body mass index (kg/m2) [not recorded],0.00037
+Height (cm) [not recorded],0.00034
+Family history of CVD [not recorded],0.00028
+LDL cholesterol (mg/dL) [not recorded],0.00024
+History of chest pain [not recorded],0.00018
+Blood pressure (mmHg) [not recorded],0.00015
+Weight (kg) [not recorded],0.00013
+Triglycerides (mg/dL) [not recorded],0.00012
+Diabetes mellitus [not recorded],9e-05

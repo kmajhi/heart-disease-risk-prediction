@@ -1,0 +1,184 @@
+{
+  "project": "AI-Driven Web-Based Heart Disease Prediction System Using Machine Learning",
+  "notebook": "Northern Bangladesh heart disease classification",
+  "environment": {
+    "python": "3.14.6",
+    "platform": "Windows-10-10.0.19045-SP0",
+    "numpy": "2.5.2",
+    "pandas": "2.3.3",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.0",
+    "matplotlib": "3.11.1",
+    "seaborn": "0.13.2",
+    "joblib": "1.6.0",
+    "run_timestamp_utc": "2026-09-10T14:57:01+00:00",
+    "random_state": 42
+  },
+  "data": {
+    "source_file": "Heart_diasease_dataset_from_Northern_Bangladesh.xlsx",
+    "sha256": "f109d770e3775869a49cebf8322cfaa62b34c5c8e398ba5ca2d81810b2d7b4f3",
+    "sheet": "Our Dataset",
+    "records_supplied": 1048,
+    "records_modelled": 1035,
+    "paediatric_excluded": 13,
+    "duplicate_clinical_records": 0,
+    "excluded_variables": [
+      "SL",
+      "UNIT",
+      "Troponin_Assay_Type"
+    ],
+    "predictors": [
+      "Age",
+      "Sex",
+      "Height (cm)",
+      "Weight (kg)",
+      "BMI",
+      "Family H/O",
+      "Hypertension",
+      "Diabetes",
+      "Total_Cholesterol(mg/dL)",
+      "BP(mmHg)",
+      "H/O ChestPain",
+      "RBS(mmol/L)",
+      "HDL(mg/dL)",
+      "LDL(mg/dL)",
+      "Triglycerides(mg/dL)",
+      "MaxHR",
+      "Himoglobin",
+      "Creatinine(mg/dL)",
+      "Platelets",
+      "Sodium(mmol/L)",
+      "Potassium",
+      "Chloride",
+      "Troponin_I",
+      "Troponin_Censored_High"
+    ],
+    "outcome": "Heart_Disease"
+  },
+  "configuration": {
+    "test_size": 0.2,
+    "outer_folds": 5,
+    "inner_folds": 5,
+    "bootstrap_replicates": 2000,
+    "alpha": 0.05,
+    "drop_maxhr": false,
+    "use_missingness_indicators": true,
+    "missingness_only_auc": 0.6363
+  },
+  "selection": {
+    "candidates": [
+      "Random Forest",
+      "Support Vector Machine",
+      "Logistic Regression",
+      "Decision Tree"
+    ],
+    "reference_model": "Random Forest",
+    "equivalence_set": [
+      "Random Forest"
+    ],
+    "selected_model": "Random Forest",
+    "selection_rule": "Highest nested CV AUC; most parsimonious model not distinguishable from it by DeLong test",
+    "hyperparameters": {
+      "model__max_depth": "10",
+      "model__max_features": "log2",
+      "model__min_samples_leaf": "1",
+      "model__n_estimators": "200"
+    }
+  },
+  "performance": {
+    "nested_cv": {
+      "Random Forest": {
+        "Nested ROC-AUC (mean)": 0.9985,
+        "Nested ROC-AUC (SD)": 0.0008,
+        "Nested ROC-AUC (pooled)": 0.9984,
+        "Nested accuracy": 0.9746,
+        "Nested sensitivity": 0.9658,
+        "Nested specificity": 0.9861,
+        "Nested F1": 0.9773
+      },
+      "Support Vector Machine": {
+        "Nested ROC-AUC (mean)": 0.988,
+        "Nested ROC-AUC (SD)": 0.0053,
+        "Nested ROC-AUC (pooled)": 0.9879,
+        "Nested accuracy": 0.9601,
+        "Nested sensitivity": 0.9573,
+        "Nested specificity": 0.9639,
+        "Nested F1": 0.9645
+      },
+      "Logistic Regression": {
+        "Nested ROC-AUC (mean)": 0.9867,
+        "Nested ROC-AUC (SD)": 0.0077,
+        "Nested ROC-AUC (pooled)": 0.9857,
+        "Nested accuracy": 0.9553,
+        "Nested sensitivity": 0.9359,
+        "Nested specificity": 0.9806,
+        "Nested F1": 0.9595
+      },
+      "Decision Tree": {
+        "Nested ROC-AUC (mean)": 0.9566,
+        "Nested ROC-AUC (SD)": 0.0153,
+        "Nested ROC-AUC (pooled)": 0.9613,
+        "Nested accuracy": 0.8973,
+        "Nested sensitivity": 0.9038,
+        "Nested specificity": 0.8889,
+        "Nested F1": 0.9087
+      }
+    },
+    "held_out_test": {
+      "Accuracy": 0.9517,
+      "Balanced accuracy": 0.9534,
+      "Sensitivity (recall)": 0.9402,
+      "Specificity": 0.9667,
+      "PPV (precision)": 0.9735,
+      "NPV": 0.9255,
+      "F1": 0.9565,
+      "ROC-AUC": 0.9916,
+      "Brier score": 0.0455
+    },
+    "test_confidence_intervals": {
+      "Accuracy": [
+        0.9179,
+        0.9758
+      ],
+      "Balanced accuracy": [
+        0.9222,
+        0.9786
+      ],
+      "Sensitivity (recall)": [
+        0.8974,
+        0.9746
+      ],
+      "Specificity": [
+        0.9222,
+        1.0
+      ],
+      "PPV (precision)": [
+        0.9407,
+        1.0
+      ],
+      "NPV": [
+        0.8763,
+        0.968
+      ],
+      "F1": [
+        0.9276,
+        0.9789
+      ],
+      "ROC-AUC": [
+        0.982,
+        0.9984
+      ],
+      "Brier score": [
+        0.0329,
+        0.0599
+      ]
+    }
+  },
+  "thresholds": {
+    "default": 0.5,
+    "youden_train_derived": 0.515,
+    "sensitivity_target_train_derived": 0.5675,
+    "target_sensitivity": 0.95
+  },
+  "disclaimer": "Research prototype. Not externally validated, not prospectively evaluated, and not approved for clinical use."
+}

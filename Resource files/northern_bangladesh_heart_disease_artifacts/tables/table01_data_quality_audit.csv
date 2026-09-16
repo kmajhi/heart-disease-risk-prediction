@@ -1,0 +1,28 @@
+,dtype,missing_n,missing_pct,unique_n,storage
+Hypertension,float64,99,9.45,2,numeric
+BMI,float64,91,8.68,561,numeric
+Chloride,object,78,7.44,208,text
+Platelets,float64,74,7.06,251,numeric
+Potassium,object,73,6.97,65,text
+Sodium(mmol/L),float64,71,6.77,240,numeric
+Family H/O,float64,68,6.49,2,numeric
+Height (cm),float64,66,6.3,46,numeric
+Himoglobin,object,51,4.87,121,text
+Triglycerides(mg/dL),float64,51,4.87,234,numeric
+Creatinine(mg/dL),float64,48,4.58,200,numeric
+Troponin-I ,object,46,4.39,572,text
+Troponin- I assay type,object,46,4.39,2,text
+LDL(mg/dL),float64,46,4.39,159,numeric
+HDL(mg/dL),float64,44,4.2,53,numeric
+Diabetes,float64,34,3.24,2,numeric
+H/O ChestPain,float64,33,3.15,2,numeric
+Weight (kg),float64,27,2.58,69,numeric
+Total_Cholesterol(mg/dL),float64,21,2.0,161,numeric
+RBS(mmol/L),float64,20,1.91,260,numeric
+BP(mmHg),float64,11,1.05,20,numeric
+Sex,object,0,0.0,2,text
+SL,int64,0,0.0,1048,numeric
+ Age,int64,0,0.0,83,numeric
+MaxHR,float64,0,0.0,146,numeric
+Heart Disease,int64,0,0.0,2,numeric
+UNIT,object,0,0.0,2,text

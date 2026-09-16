@@ -1,0 +1,22 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+.idea/
+
+# Claude Code local session/config data — not part of the project
+.claude/
+
+# Patient-level clinical data. The raw dataset and any full per-patient
+# extract must never be published to a public repo — only aggregate
+# tables, figures, metadata, and the trained model artifacts derived from
+# them are safe to share. See reports/dataset_audit.md.
+Resource files/Heart_diasease_dataset_from_Northern_Bangladesh.xlsx
+Resource files/northern_bangladesh_heart_disease_artifacts/RESTRICTED_modelling_dataset.csv
+
+# Notebook working state: pickled model objects and train/test splits.
+# Regenerable from the notebooks themselves; large and some contain full
+# per-patient rows, so they don't belong in the repo either.
+notebooks/*.pkl
+notebooks/*.npy

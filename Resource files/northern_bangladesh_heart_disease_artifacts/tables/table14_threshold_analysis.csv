@@ -1,0 +1,4 @@
+,Accuracy,Balanced accuracy,Sensitivity (recall),Specificity,PPV (precision),NPV,F1,False negatives,False positives
+Default (0.50),0.9517,0.9534,0.9402,0.9667,0.9735,0.9255,0.9565,7.0,3.0
+"Youden J (train-derived, 0.515)",0.9517,0.9534,0.9402,0.9667,0.9735,0.9255,0.9565,7.0,3.0
+"Sensitivity >= 95% (train-derived, 0.568)",0.9517,0.956,0.9231,0.9889,0.9908,0.9082,0.9558,9.0,1.0

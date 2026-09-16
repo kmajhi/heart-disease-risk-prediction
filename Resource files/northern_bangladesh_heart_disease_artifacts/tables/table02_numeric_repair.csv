@@ -1,0 +1,4 @@
+Variable,Non-empty in source,Parsed without repair,Recovered by repair,Unparseable after repair
+Himoglobin,997,996,1,0
+Potassium,975,974,1,0
+Chloride,970,968,1,1

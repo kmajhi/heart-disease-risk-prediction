@@ -1,0 +1,3 @@
+,Training n,Training %,Test n,Test %
+No heart disease (0),360,43.5,90,43.5
+Heart disease (1),468,56.5,117,56.5
